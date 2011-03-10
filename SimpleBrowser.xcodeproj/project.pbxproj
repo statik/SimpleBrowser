@@ -17,6 +17,7 @@
 		A53F210E13285A63007202AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A53F210C13285A63007202AD /* InfoPlist.strings */; };
 		A53F211113285A63007202AD /* SimpleBrowserTests.h in Resources */ = {isa = PBXBuildFile; fileRef = A53F211013285A63007202AD /* SimpleBrowserTests.h */; };
 		A53F211313285A63007202AD /* SimpleBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A53F211213285A63007202AD /* SimpleBrowserTests.m */; };
+		A59BA65A1328614A000C66F5 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59BA65913286149000C66F5 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +36,22 @@
 		A53F20EB13285A63007202AD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		A53F20EC13285A63007202AD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		A53F20ED13285A63007202AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		A53F20F013285A63007202AD /* SimpleBrowser-Info.plist */ = {isa = PBXFileReference; path = "SimpleBrowser-Info.plist"; sourceTree = "<group>"; };
+		A53F20F013285A63007202AD /* SimpleBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleBrowser-Info.plist"; sourceTree = "<group>"; };
 		A53F20F213285A63007202AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A53F20F413285A63007202AD /* SimpleBrowser-Prefix.pch */ = {isa = PBXFileReference; path = "SimpleBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		A53F20F413285A63007202AD /* SimpleBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleBrowser-Prefix.pch"; sourceTree = "<group>"; };
 		A53F20F513285A63007202AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A53F20F813285A63007202AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		A53F20FA13285A63007202AD /* SimpleBrowserAppDelegate.h */ = {isa = PBXFileReference; path = SimpleBrowserAppDelegate.h; sourceTree = "<group>"; };
+		A53F20FA13285A63007202AD /* SimpleBrowserAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleBrowserAppDelegate.h; sourceTree = "<group>"; };
 		A53F20FB13285A63007202AD /* SimpleBrowserAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleBrowserAppDelegate.m; sourceTree = "<group>"; };
 		A53F20FE13285A63007202AD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		A53F210513285A63007202AD /* SimpleBrowserTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleBrowserTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A53F210B13285A63007202AD /* SimpleBrowserTests-Info.plist */ = {isa = PBXFileReference; path = "SimpleBrowserTests-Info.plist"; sourceTree = "<group>"; };
+		A53F210B13285A63007202AD /* SimpleBrowserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleBrowserTests-Info.plist"; sourceTree = "<group>"; };
 		A53F210D13285A63007202AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A53F210F13285A63007202AD /* SimpleBrowserTests-Prefix.pch */ = {isa = PBXFileReference; path = "SimpleBrowserTests-Prefix.pch"; sourceTree = "<group>"; };
+		A53F210F13285A63007202AD /* SimpleBrowserTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleBrowserTests-Prefix.pch"; sourceTree = "<group>"; };
 		A53F211013285A63007202AD /* SimpleBrowserTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleBrowserTests.h; sourceTree = "<group>"; };
 		A53F211213285A63007202AD /* SimpleBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleBrowserTests.m; sourceTree = "<group>"; };
+		A59BA65913286149000C66F5 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		A59BA65C13286157000C66F5 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A59BA65A1328614A000C66F5 /* WebKit.framework in Frameworks */,
 				A53F20E913285A63007202AD /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,6 +78,7 @@
 		A53F20D913285A62007202AD = {
 			isa = PBXGroup;
 			children = (
+				A59BA65913286149000C66F5 /* WebKit.framework */,
 				A53F20EE13285A63007202AD /* SimpleBrowser */,
 				A53F210913285A63007202AD /* SimpleBrowserTests */,
 				A53F20E713285A63007202AD /* Frameworks */,
@@ -93,6 +98,7 @@
 		A53F20E713285A63007202AD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A59BA65C13286157000C66F5 /* WebKit.framework */,
 				A53F20E813285A63007202AD /* Cocoa.framework */,
 				A53F20EA13285A63007202AD /* Other Frameworks */,
 			);
@@ -442,6 +448,7 @@
 				A53F211813285A63007202AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A53F211913285A63007202AD /* Build configuration list for PBXNativeTarget "SimpleBrowserTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +457,7 @@
 				A53F211B13285A63007202AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -32,7 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A53ACAF0132868CC000DBA36 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		A53ACAF0132868CC000DBA36 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = SimpleBrowser/README; sourceTree = "<group>"; };
 		A53F20E413285A63007202AD /* SimpleBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A53F20E813285A63007202AD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		A53F20EB13285A63007202AD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -80,6 +80,7 @@
 		A53F20D913285A62007202AD = {
 			isa = PBXGroup;
 			children = (
+				A53ACAF0132868CC000DBA36 /* README */,
 				A59BA65913286149000C66F5 /* WebKit.framework */,
 				A53F20EE13285A63007202AD /* SimpleBrowser */,
 				A53F210913285A63007202AD /* SimpleBrowserTests */,
@@ -124,7 +125,6 @@
 				A53F20FB13285A63007202AD /* SimpleBrowserAppDelegate.m */,
 				A53F20FD13285A63007202AD /* MainMenu.xib */,
 				A53F20EF13285A63007202AD /* Supporting Files */,
-				A53ACAF0132868CC000DBA36 /* README */,
 			);
 			path = SimpleBrowser;
 			sourceTree = "<group>";

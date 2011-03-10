@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A53ACAF1132868CC000DBA36 /* README in Resources */ = {isa = PBXBuildFile; fileRef = A53ACAF0132868CC000DBA36 /* README */; };
 		A53F20E913285A63007202AD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A53F20E813285A63007202AD /* Cocoa.framework */; };
 		A53F20F313285A63007202AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A53F20F113285A63007202AD /* InfoPlist.strings */; };
 		A53F20F613285A63007202AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A53F20F513285A63007202AD /* main.m */; };
@@ -32,7 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A53ACAF0132868CC000DBA36 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = SimpleBrowser/README; sourceTree = "<group>"; };
+		A53ACAF313286A48000DBA36 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		A53F20E413285A63007202AD /* SimpleBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A53F20E813285A63007202AD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		A53F20EB13285A63007202AD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -80,7 +79,7 @@
 		A53F20D913285A62007202AD = {
 			isa = PBXGroup;
 			children = (
-				A53ACAF0132868CC000DBA36 /* README */,
+				A53ACAF313286A48000DBA36 /* README */,
 				A59BA65913286149000C66F5 /* WebKit.framework */,
 				A53F20EE13285A63007202AD /* SimpleBrowser */,
 				A53F210913285A63007202AD /* SimpleBrowserTests */,
@@ -231,7 +230,6 @@
 				A53F20F313285A63007202AD /* InfoPlist.strings in Resources */,
 				A53F20F913285A63007202AD /* Credits.rtf in Resources */,
 				A53F20FF13285A63007202AD /* MainMenu.xib in Resources */,
-				A53ACAF1132868CC000DBA36 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

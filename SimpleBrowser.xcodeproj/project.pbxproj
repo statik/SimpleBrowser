@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A53F20E913285A63007202AD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A53F20E813285A63007202AD /* Cocoa.framework */; };
+		A53F20F313285A63007202AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A53F20F113285A63007202AD /* InfoPlist.strings */; };
+		A53F20F613285A63007202AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A53F20F513285A63007202AD /* main.m */; };
+		A53F20F913285A63007202AD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A53F20F713285A63007202AD /* Credits.rtf */; };
+		A53F20FC13285A63007202AD /* SimpleBrowserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A53F20FB13285A63007202AD /* SimpleBrowserAppDelegate.m */; };
+		A53F20FF13285A63007202AD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A53F20FD13285A63007202AD /* MainMenu.xib */; };
+		A53F210613285A63007202AD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A53F20E813285A63007202AD /* Cocoa.framework */; };
+		A53F210E13285A63007202AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A53F210C13285A63007202AD /* InfoPlist.strings */; };
+		A53F211113285A63007202AD /* SimpleBrowserTests.h in Resources */ = {isa = PBXBuildFile; fileRef = A53F211013285A63007202AD /* SimpleBrowserTests.h */; };
+		A53F211313285A63007202AD /* SimpleBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A53F211213285A63007202AD /* SimpleBrowserTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A53F210713285A63007202AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A53F20DB13285A62007202AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53F20E313285A63007202AD;
+			remoteInfo = SimpleBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A53F20E413285A63007202AD /* SimpleBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53F20E813285A63007202AD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A53F20EB13285A63007202AD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A53F20EC13285A63007202AD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A53F20ED13285A63007202AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A53F20F013285A63007202AD /* SimpleBrowser-Info.plist */ = {isa = PBXFileReference; path = "SimpleBrowser-Info.plist"; sourceTree = "<group>"; };
+		A53F20F213285A63007202AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A53F20F413285A63007202AD /* SimpleBrowser-Prefix.pch */ = {isa = PBXFileReference; path = "SimpleBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		A53F20F513285A63007202AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A53F20F813285A63007202AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A53F20FA13285A63007202AD /* SimpleBrowserAppDelegate.h */ = {isa = PBXFileReference; path = SimpleBrowserAppDelegate.h; sourceTree = "<group>"; };
+		A53F20FB13285A63007202AD /* SimpleBrowserAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleBrowserAppDelegate.m; sourceTree = "<group>"; };
+		A53F20FE13285A63007202AD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A53F210513285A63007202AD /* SimpleBrowserTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleBrowserTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53F210B13285A63007202AD /* SimpleBrowserTests-Info.plist */ = {isa = PBXFileReference; path = "SimpleBrowserTests-Info.plist"; sourceTree = "<group>"; };
+		A53F210D13285A63007202AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A53F210F13285A63007202AD /* SimpleBrowserTests-Prefix.pch */ = {isa = PBXFileReference; path = "SimpleBrowserTests-Prefix.pch"; sourceTree = "<group>"; };
+		A53F211013285A63007202AD /* SimpleBrowserTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleBrowserTests.h; sourceTree = "<group>"; };
+		A53F211213285A63007202AD /* SimpleBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleBrowserTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A53F20E113285A63007202AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53F20E913285A63007202AD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53F210113285A63007202AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53F210613285A63007202AD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A53F20D913285A62007202AD = {
+			isa = PBXGroup;
+			children = (
+				A53F20EE13285A63007202AD /* SimpleBrowser */,
+				A53F210913285A63007202AD /* SimpleBrowserTests */,
+				A53F20E713285A63007202AD /* Frameworks */,
+				A53F20E513285A63007202AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A53F20E513285A63007202AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A53F20E413285A63007202AD /* SimpleBrowser.app */,
+				A53F210513285A63007202AD /* SimpleBrowserTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A53F20E713285A63007202AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A53F20E813285A63007202AD /* Cocoa.framework */,
+				A53F20EA13285A63007202AD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A53F20EA13285A63007202AD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A53F20EB13285A63007202AD /* AppKit.framework */,
+				A53F20EC13285A63007202AD /* CoreData.framework */,
+				A53F20ED13285A63007202AD /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A53F20EE13285A63007202AD /* SimpleBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				A53F20FA13285A63007202AD /* SimpleBrowserAppDelegate.h */,
+				A53F20FB13285A63007202AD /* SimpleBrowserAppDelegate.m */,
+				A53F20FD13285A63007202AD /* MainMenu.xib */,
+				A53F20EF13285A63007202AD /* Supporting Files */,
+			);
+			path = SimpleBrowser;
+			sourceTree = "<group>";
+		};
+		A53F20EF13285A63007202AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A53F20F013285A63007202AD /* SimpleBrowser-Info.plist */,
+				A53F20F113285A63007202AD /* InfoPlist.strings */,
+				A53F20F413285A63007202AD /* SimpleBrowser-Prefix.pch */,
+				A53F20F513285A63007202AD /* main.m */,
+				A53F20F713285A63007202AD /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A53F210913285A63007202AD /* SimpleBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				A53F211013285A63007202AD /* SimpleBrowserTests.h */,
+				A53F211213285A63007202AD /* SimpleBrowserTests.m */,
+				A53F210A13285A63007202AD /* Supporting Files */,
+			);
+			path = SimpleBrowserTests;
+			sourceTree = "<group>";
+		};
+		A53F210A13285A63007202AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A53F210B13285A63007202AD /* SimpleBrowserTests-Info.plist */,
+				A53F210C13285A63007202AD /* InfoPlist.strings */,
+				A53F210F13285A63007202AD /* SimpleBrowserTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A53F20E313285A63007202AD /* SimpleBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53F211613285A63007202AD /* Build configuration list for PBXNativeTarget "SimpleBrowser" */;
+			buildPhases = (
+				A53F20E013285A63007202AD /* Sources */,
+				A53F20E113285A63007202AD /* Frameworks */,
+				A53F20E213285A63007202AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleBrowser;
+			productName = SimpleBrowser;
+			productReference = A53F20E413285A63007202AD /* SimpleBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A53F210413285A63007202AD /* SimpleBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53F211913285A63007202AD /* Build configuration list for PBXNativeTarget "SimpleBrowserTests" */;
+			buildPhases = (
+				A53F210013285A63007202AD /* Sources */,
+				A53F210113285A63007202AD /* Frameworks */,
+				A53F210213285A63007202AD /* Resources */,
+				A53F210313285A63007202AD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A53F210813285A63007202AD /* PBXTargetDependency */,
+			);
+			name = SimpleBrowserTests;
+			productName = SimpleBrowserTests;
+			productReference = A53F210513285A63007202AD /* SimpleBrowserTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A53F20DB13285A62007202AD /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A53F20DE13285A62007202AD /* Build configuration list for PBXProject "SimpleBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A53F20D913285A62007202AD;
+			productRefGroup = A53F20E513285A63007202AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A53F20E313285A63007202AD /* SimpleBrowser */,
+				A53F210413285A63007202AD /* SimpleBrowserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A53F20E213285A63007202AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53F20F313285A63007202AD /* InfoPlist.strings in Resources */,
+				A53F20F913285A63007202AD /* Credits.rtf in Resources */,
+				A53F20FF13285A63007202AD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53F210213285A63007202AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53F210E13285A63007202AD /* InfoPlist.strings in Resources */,
+				A53F211113285A63007202AD /* SimpleBrowserTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A53F210313285A63007202AD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A53F20E013285A63007202AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53F20F613285A63007202AD /* main.m in Sources */,
+				A53F20FC13285A63007202AD /* SimpleBrowserAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53F210013285A63007202AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53F211313285A63007202AD /* SimpleBrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A53F210813285A63007202AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A53F20E313285A63007202AD /* SimpleBrowser */;
+			targetProxy = A53F210713285A63007202AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A53F20F113285A63007202AD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A53F20F213285A63007202AD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A53F20F713285A63007202AD /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A53F20F813285A63007202AD /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A53F20FD13285A63007202AD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A53F20FE13285A63007202AD /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		A53F210C13285A63007202AD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A53F210D13285A63007202AD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A53F211413285A63007202AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A53F211513285A63007202AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A53F211713285A63007202AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleBrowser/SimpleBrowser-Prefix.pch";
+				INFOPLIST_FILE = "SimpleBrowser/SimpleBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A53F211813285A63007202AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleBrowser/SimpleBrowser-Prefix.pch";
+				INFOPLIST_FILE = "SimpleBrowser/SimpleBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A53F211A13285A63007202AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleBrowser.app/Contents/MacOS/SimpleBrowser";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleBrowserTests/SimpleBrowserTests-Prefix.pch";
+				INFOPLIST_FILE = "SimpleBrowserTests/SimpleBrowserTests-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A53F211B13285A63007202AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleBrowser.app/Contents/MacOS/SimpleBrowser";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleBrowserTests/SimpleBrowserTests-Prefix.pch";
+				INFOPLIST_FILE = "SimpleBrowserTests/SimpleBrowserTests-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A53F20DE13285A62007202AD /* Build configuration list for PBXProject "SimpleBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53F211413285A63007202AD /* Debug */,
+				A53F211513285A63007202AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53F211613285A63007202AD /* Build configuration list for PBXNativeTarget "SimpleBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53F211713285A63007202AD /* Debug */,
+				A53F211813285A63007202AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A53F211913285A63007202AD /* Build configuration list for PBXNativeTarget "SimpleBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53F211A13285A63007202AD /* Debug */,
+				A53F211B13285A63007202AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A53F20DB13285A62007202AD /* Project object */;
+}

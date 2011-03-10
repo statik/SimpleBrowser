@@ -1339,6 +1339,7 @@
 				<string key="NSWindowTitle">SimpleBrowser</string>
 				<string key="NSWindowClass">NSWindow</string>
 				<nil key="NSViewClass"/>
+				<string key="NSWindowContentMinSize">{679, 511}</string>
 				<object class="NSView" key="NSWindowView" id="439893737">
 					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
@@ -1485,6 +1486,7 @@
 					<reference key="NSNextKeyView" ref="138199361"/>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1366, 746}}</string>
+				<string key="NSMinSize">{679, 533}</string>
 				<string key="NSMaxSize">{1e+13, 1e+13}</string>
 			</object>
 			<object class="NSCustomObject" id="976324537">
